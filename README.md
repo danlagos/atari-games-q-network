@@ -33,7 +33,7 @@ learning."  I did not use any code from the paper.  From the paper I build psued
 * What sort of date structures and classes will I need?
 * What model architecture?
 * What are the hyperparameters?
-* what general results can I excpet?
+* what general results can I expect?
 
 I had to make modifications to the algorithm because of my lack of GPU's.  For example, instead of mmax_mem_size = 1,000,000 I used mmax_mem_size = 100,000.  I may further reduce this upon final implementation given my GPU and RAM.
 
