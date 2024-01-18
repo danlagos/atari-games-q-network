@@ -24,7 +24,7 @@ As a solution I propose the following:
     * To decouple the correlations between the action and the value of the actions
     * By using a class for experience replay we are randomizing over the data to remove the correlations and smoothing over changes in the data distribution.
 
-I will use PongNoFrameskip-v4' to solve this problem.  I do not have the GPU's to solve multiple games.
+I will use PongNoFrameskip-v4 to solve this problem.  I do not have the GPU's to solve multiple games.
 
 This is based on the paper "Human-level control through deep reinforcement
 learning."  I did not use any code from the paper.  From the paper I build psuedo code that answers the following questions:
@@ -35,6 +35,6 @@ learning."  I did not use any code from the paper.  From the paper I build psued
 * What are the hyperparameters?
 * what general results can I expect?
 
-I had to make modifications to the algorithm because of my lack of GPU's.  For example, instead of mmax_mem_size = 1,000,000 I used mmax_mem_size = 100,000.  I may further reduce this upon final implementation given my GPU and RAM.
+I had to make modifications to the algorithm because of my lack of GPU's.  For example, instead of max_mem_size = 1,000,000 I used max_mem_size = 100,000.  I may further reduce this upon final implementation given my GPU and RAM.
 
-As before I placed the following contraint upon myself, that is that I refused to use frameworks or API's such as HuggingFace.  The point is this model is to help me understand RL and Deep Q Networks.  Using those API's would not help my understanding.  
+As before I placed the following constraint upon myself, that is that I refused to use frameworks or API's such as HuggingFace.  The point is to help me understand RL and Deep Q Networks.  Using those API's would not help my understanding.  Buidling networks from scratch will.
