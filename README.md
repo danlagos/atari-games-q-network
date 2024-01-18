@@ -1,5 +1,5 @@
 # atari-games-q-network
-NOT COMPLETE.  I SHOULD BE FINISHED IN A FEW DAYS!
+## NOT COMPLETE.  I SHOULD BE FINISHED IN A FEW DAYS!
 
 You must use python 3.6 to run this code.
 
@@ -36,8 +36,8 @@ learning."  I did not use any code from the paper.  From the paper I build pseud
 * What are the hyperparameters?
 * what general results can I expect?
 
-Pseudo code found in pdf file simply titled "pseudo_code."
+Pseudo code found in pdf file simply titled "pseudo_code."  This is not in a format that is used to write pseudo code found in peer reviewed articles.  This is meant to show what I extracted from the article this model is based on.  It is also the initial plan I used to write the code.
 
 I had to make modifications to the algorithm because of my lack of GPU's.  For example, instead of max_mem_size = 1,000,000 I used max_mem_size = 100,000.  I may further reduce this upon final implementation given my GPU and RAM.
 
-As before I placed the following constraint upon myself, that is that I refused to use frameworks or API's such as HuggingFace.  The point is to help me understand RL and Deep Q Networks.  Using those API's would not help my understanding.  Buidling networks from scratch will.
+As before I placed the following constraint upon myself:  I refused to use frameworks or API's such as HuggingFace.  The point is to help me understand RL and Deep Q Networks.  Using those API's would not help my understanding.  Buidling networks from scratch will.
