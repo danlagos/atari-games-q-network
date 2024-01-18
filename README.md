@@ -27,6 +27,14 @@ As a solution I propose the following:
 I will use PongNoFrameskip-v4' to solve this problem.  I do not have the GPU's to solve multiple games.
 
 This is based on the paper "Human-level control through deep reinforcement
-learning."
+learning."  I did not use any code from the paper.  From the paper I build psuedo code that answers the following questions:
 
-As before I placed the following contraint upon myself, that is that I refused to use frameworks or API's such as HuggingFace, as an example.  The point is this model is to help me understand RL and Deep Q Networks.  Using those API's would not help my understanding.  
+* What algorithm?
+* What sort of date structures and classes will I need?
+* What model architecture?
+* What are the hyperparameters?
+* what general results can I excpet?
+
+I had to make modifications to the algorithm because of my lack of GPU's.  For example, instead of mmax_mem_size = 1,000,000 I used mmax_mem_size = 100,000.  I may further reduce this upon final implementation given my GPU and RAM.
+
+As before I placed the following contraint upon myself, that is that I refused to use frameworks or API's such as HuggingFace.  The point is this model is to help me understand RL and Deep Q Networks.  Using those API's would not help my understanding.  
