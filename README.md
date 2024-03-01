@@ -1,5 +1,5 @@
 # atari-games-q-network
-## NOT COMPLETE.  
+## PROJECT NOT COMPLETE.  
 
 You must use python 3.6 to run this code.
 
