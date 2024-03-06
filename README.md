@@ -41,3 +41,14 @@ Pseudo code found in pdf file simply titled "pseudo_code."  This is not in a for
 I had to make modifications to the algorithm because of my lack of GPU's.  For example, instead of max_mem_size = 1,000,000 I used max_mem_size = 100,000.  I may further reduce this upon final implementation given my GPU and RAM.
 
 As before I placed the following constraint upon myself:  I refused to use frameworks or API's such as HuggingFace.  The point is to help me understand RL and Deep Q Networks.  Using those API's would not help my understanding.  Buidling networks from scratch will.
+
+| Project Description | Skill |
+|----------------------|-----------------------------------------|
+| The project involves building a second Deep Q Learning (DQN) network to address instability issues identified in the first model. | Deep Learning |
+| Identified problems include the use of a single network for both actions and value estimations, creating correlations and policy instability. | Problem Identification in AI Models |
+| Proposed solutions include creating a class for experience replay, using a separate deep neural network for target value calculations, and updating the neural network with uniformly sampled experience replays to reduce correlations. | Solution Design and Implementation in Machine Learning |
+| The model aims to solve the Bellman Equation, decouple action-value correlations, and ensure data randomization to smooth data distribution changes. | Mathematical Modeling in Machine Learning |
+| The PongNoFrameskip-v4 game is used for testing the solution, constrained by available GPU resources. | Practical Application of DQN in Gaming |
+| Based on the "Human-level control through deep reinforcement learning" paper, the project did not use the paper's code but developed pseudo code to outline algorithms, data structures, model architecture, hyperparameters, and expected results. | Research and Development in Deep Learning |
+| Adjustments were made to the original algorithm to accommodate limited GPU resources, such as reducing the maximum memory size for experience replay. | Adaptation and Optimization for Resource Constraints |
+| The project deliberately avoids using frameworks like HuggingFace to deepen understanding of RL and DQN by building networks from scratch. | Deep Learning Frameworks and Libraries Independence |
